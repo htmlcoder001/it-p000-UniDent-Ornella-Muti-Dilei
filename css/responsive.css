@@ -1,0 +1,132 @@
+/* Tablet */
+@media (max-width: 1024px) {
+  .intro-wrapper__news,
+  header,
+  footer,
+  .intro-wrapper__title {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .content-socials,
+  .intro-wrapper__text {
+    padding-left: 12px;
+  }
+  
+}
+
+@media (max-width: 960px) {
+  .header-wrapper__promo,
+  .content-aside {
+    display: none;
+  }
+  .intro-wrapper__title {
+    max-width: 100%;
+  }
+  .content {
+    grid-template-columns: 70px 1fr;
+  }
+  .content-wrapper {
+    border: none;
+    padding-right: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-menu__text,
+  .content-socials {
+    display: none;
+  }
+  .content {
+    grid-template-columns: 1fr;
+    display: block;
+  }
+  .content-wrapper {
+    padding-left: 12px;
+  }
+  
+  .intro-news__text {
+    max-width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .content-comments__box {
+    justify-content: center;
+  }
+  .content-footer__text {
+    text-align: center;
+  }
+  .footer-wrapper__nav {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .footer-wrapper__logo {
+    margin: 0 auto 16px auto;
+  }
+  .footer-wrapper__text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 680px) {
+  .popup,
+  .popup-controls {
+    max-width: calc(100vw - 36px);
+    max-height: calc(100vh - 36px);
+  }
+  .related-wrapper {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .content-wrapper__related {
+    max-width: 400px;
+  }
+}
+
+/* Phone */
+@media (max-width: 575px) {
+  .header-login__text {
+    display: none;
+  }
+  .header-wrapper__logo {
+    width: 270px;
+    -webkit-background-size: contain;
+    background-size: contain;
+  }
+  .popup {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    top: 32px;
+  }
+  .popup-controls {
+    max-width: 100%;
+    width: 100%;
+    top: 0;
+  }
+  .comment-content__actions {
+    padding: 10px;
+  }
+  .comment-actions__item {
+    font-size: 14px;
+  }
+  .comment-content__actions .icon-share,
+  .comment-content__actions .icon-share:before {
+    font-size: 20px;
+  }
+  .comment-content__text {
+    font-size: 16px;
+  }
+}
+
+/* Phone - 320px */
+@media (max-width: 374px) {
+  .header-wrapper__logo {
+    width: 220px;
+  }
+  .comment-content__image {
+    max-width: calc(100% - 24px);
+    display: block;
+  }
+}

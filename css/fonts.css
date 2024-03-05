@@ -1,0 +1,231 @@
+/* Roboto */
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/roboto-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: corriere-icon;
+  src: url(fonts/corriere-icon.eot);
+  src: url(fonts/corriere-icon.eot#iefix) format("embedded-opentype"),
+  url(fonts/corriere-icon.ttf) format("truetype"),
+  url(fonts/corriere-icon.woff) format("woff"),
+  url(fonts/corriere-icon.svg#corriere-icon) format("svg");
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: SolferinoText-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/solferinotext-regular-webfont.eot);
+  src: url(fonts/solferinotext-regular-webfont.eot) format("embedded-opentype");
+  src: url(fonts/solferinotext-regular-webfont.woff2) format("woff2"), url(fonts/solferinotext-regular-webfont.woff) format("woff"), url(fonts/solferinotext-regular-webfont.ttf) format("truetype"), url(fonts/solferinotext-regular-webfont.svg#solferino_text_rgbold) format("svg")
+}
+
+@font-face {
+  font-family: SolferinoText-Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/solferinotext-bold-webfont.eot);
+  src: url(fonts/solferinotext-bold-webfont.eot) format("embedded-opentype");
+  src: url(fonts/solferinotext-bold-webfont.woff2) format("woff2"), url(fonts/solferinotext-bold-webfont.woff) format("woff"), url(fonts/solferinotext-bold-webfont.ttf) format("truetype"), url(fonts/solferinotext-bold-webfont.svg#solferino_text_rgbold) format("svg")
+}
+
+@font-face {
+  font-family: SolferinoDisplay-LightItalic;
+  font-weight: 400;
+  font-style: italic;
+  src: url(fonts/SolferinoDisplay-LightItalic.eot);
+  src: url(fonts/SolferinoDisplay-LightItalic.eot) format("embedded-opentype");
+  src: url(fonts/SolferinoDisplay-LightItalic.woff2) format("woff2"), url(fonts/SolferinoDisplay-LightItalic.woff) format("woff"), url(fonts/SolferinoDisplay-LightItalic.ttf) format("truetype"), url(fonts/SolferinoDisplay-LightItalic.svg#SolferinoDisplay-LightItalic) format("svg")
+}
+
+@font-face {
+  font-family: SolferinoDisplay-Bold;
+  font-weight: 400;
+  font-style: normal;
+  src: url(fonts/SolferinoDisplay-Bold.eot);
+  src: url(fonts/SolferinoDisplay-Bold.eot) format("embedded-opentype");
+  src: url(fonts/SolferinoDisplay-Bold.woff2) format("woff2"), url(fonts/SolferinoDisplay-Bold.woff) format("woff"), url(fonts/SolferinoDisplay-Bold.ttf) format("truetype"), url(fonts/SolferinoDisplay-Bold.svg#SolferinoDisplay-Bold) format("svg")
+}
+
+@font-face {
+  font-family: SolferinoDisplay-Light;
+  font-weight: 400;
+  font-style: normal;
+  src: url(fonts/solferinodisplaylight.eot);
+  src: url(fonts/solferinodisplaylight.eot#iefix) format("embedded-opentype");
+  src: url(fonts/solferinodisplaylight.woff2) format("woff2"), url(fonts/solferinodisplaylight.woff) format("woff"), url(fonts/solferinodisplaylight.ttf) format("truetype"), url(fonts/solferinodisplaylight.svg#solferinodisplaylight) format("svg")
+}
+
+@font-face {
+  font-family: SolferinoDisplay-LightIt;
+  font-weight: 400;
+  font-style: normal;
+  src: url(fonts/SolferinoDisplay-LightItalic.eot);
+  src: url(fonts/SolferinoDisplay-LightItalic.eot#iefix) format("embedded-opentype");
+  src: url(fonts/SolferinoDisplay-LightItalic.woff2) format("woff2"), url(fonts/SolferinoDisplay-LightItalic.woff) format("woff"), url(fonts/SolferinoDisplay-LightItalic.ttf) format("truetype"), url(fonts/SolferinoDisplay-LightItalic.svg#SolferinoDisplay-LightItalic) format("svg")
+}
+
+@font-face {
+  font-family: SolferinoDisplay-Regular;
+  font-weight: 400;
+  font-style: normal;
+  src: url(fonts/SolferinoDisplay-Regular.eot);
+  src: url(fonts/SolferinoDisplay-Regular.eot#iefix) format("embedded-opentype");
+  src: url(fonts/SolferinoDisplay-Regular.woff2) format("woff2"), url(fonts/SolferinoDisplay-Regular.woff) format("woff"), url(fonts/SolferinoDisplay-Regular.ttf) format("truetype"), url(fonts/SolferinoDisplay-Regular.svg#SolferinoDisplay-Regular) format("svg")
+}
+
+@font-face {
+  font-family: SolferinoDisplay-Heavy;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/solferinodisolayheavy.woff) format("woff"), url(fonts/solferinodisolayheavy.ttf) format("truetype"), url(fonts/solferinodisolayheavy.svg#SolferinoDisplay-Heavy) format("svg")
+}
+
+
+/* BreraCondensed */
+@font-face {
+  font-family: BreraCondensed-bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/brecnbd-webfont.eot);
+  src: url(fonts/brecnbd-webfont.eot) format("embedded-opentype");
+  src: url(fonts/brecnbd-webfont.woff2) format("woff2"), url(fonts/brecnbd-webfont.woff) format("woff"), url(fonts/brecnbd-webfont.ttf) format("truetype"), url(fonts/brecnbd-webfont.svg#BreraCondensedBold) format("svg")
+}
+
+@font-face {
+  font-family: BreraCondensed-semibold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/brecnsb-webfont.eot);
+  src: url(fonts/brecnsb-webfont.eot) format("embedded-opentype");
+  src: url(fonts/brecnsb-webfont.woff2) format("woff2"), url(fonts/brecnsb-webfont.woff) format("woff"), url(fonts/brecnsb-webfont.ttf) format("truetype"), url(fonts/brecnsb-webfont.svg#BreraCondensedSemibold) format("svg")
+}
+
+@font-face {
+  font-family: BreraCondensed-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/brecnrg-webfont.eot);
+  src: url(fonts/brecnrg-webfont.eot) format("embedded-opentype");
+  src: url(fonts/brecnrg-webfont.woff2) format("woff2"), url(fonts/brecnrg-webfont.woff) format("woff"), url(fonts/brecnrg-webfont.ttf) format("truetype"), url(fonts/brecnrg-webfont.svg#BreraCondensedRegular) format("svg")
+}
+
+@font-face {
+  font-family: BreraCondensed-SemiBoldItalic;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/brecnsbit-webfont.eot);
+  src: url(fonts/brecnsbit-webfont.eot) format("embedded-opentype");
+  src: url(fonts/brecnsbit-webfont.woff2) format("woff2"), url(fonts/brecnsbit-webfont.woff) format("woff"), url(fonts/brecnsbit-webfont.ttf) format("truetype"), url(fonts/brecnsbit-webfont.svg) format("svg")
+}
+
+@font-face {
+  font-family: BreraCondensed-Black;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/brecnbl-webfont.eot);
+  src: url(fonts/brecnbl-webfont.eot) format("embedded-opentype");
+  src: url(fonts/brecnbl-webfont.woff2) format("woff2"), url(fonts/brecnbl-webfont.woff) format("woff"), url(fonts/brecnbl-webfont.ttf) format("truetype"), url(fonts/brecnbl-webfont.svg) format("svg")
+}
+
+@font-face {
+  font-family: BreraCondensed-Heavy;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/brecnhv-webfont.eot);
+  src: url(fonts/brecnhv-webfont.eot) format("embedded-opentype");
+  src: url(fonts/brecnhv-webfont.woff2) format("woff2"), url(fonts/brecnhv-webfont.woff) format("woff"), url(fonts/brecnhv-webfont.ttf) format("truetype"), url(fonts/brecnhv-webfont.svg#BreraCondensedRegular) format("svg")
+}
+
+@font-face {
+  font-family: BreraCondensed-Italic;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/brecnltit-webfont.eot);
+  src: url(fonts/brecnltit-webfont.eot) format("embedded-opentype");
+  src: url(fonts/brecnltit-webfont.woff) format("woff"), url(fonts/brecnltit-webfont.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: BreraCondensed-Light;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/brecnlt-webfont.eot);
+  src: url(fonts/brecnlt-webfont.eot) format("embedded-opentype");
+  src: url(fonts/brecnlt-webfont.woff) format("woff"), url(fonts/brecnlt-webfont.ttf) format("truetype"), url(fonts/brecnlt-webfont.svg#BreraCondensedRegular) format("svg")
+}
+
+@font-face {
+  font-family: Brera-regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/brerarg-webfont.eot);
+  src: url(fonts/brerarg-webfont.eot) format("embedded-opentype");
+  src: url(fonts/brerarg-webfont.woff) format("woff"), url(fonts/brerarg-webfont.ttf) format("truetype"), url(fonts/brerarg-webfont.svg#BreraRegular) format("svg")
+}
+
+@font-face {
+  font-family: Brera-Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/brerabd-webfont.eot);
+  src: url(fonts/brerabd-webfont.eot) format("embedded-opentype");
+  src: url(fonts/brerabd-webfont.woff) format("woff"), url(fonts/brerabd-webfont.ttf) format("truetype"), url(fonts/brerabd-webfont.svg#BreraBold) format("svg")
+}
+
+@font-face {
+  font-family: Brera-BoldItalic;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/BreraBlIt.otf)
+}
+
+@font-face {
+  font-family: Brera-Light;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/BreraLt.otf)
+}
+
+@font-face {
+  font-family: Brera-Heavy;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/BreraHv.otf)
+}
+
+@font-face {
+  font-family: Brera-Semibold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/BreraSb.otf) format("embedded-opentype");
+  src: url(fonts/brerasb-webfont.woff) format("woff"), url(fonts/brerasb-webfont.ttf) format("truetype"), url(fonts/brerasb-webfont.svg) format("svg")
+}
+
+@font-face {
+  font-family: "brera_regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brera/brecnrg-webfont.eot?v=<!--#flastmod virtual='/includes2013/LIBS/css/fonts/brera/brecnrg-webfont.eot' -->");
+  src: url("https://css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brera/brecnrg-webfont.eot?#iefix&v=<!--#flastmod virtual='/includes2013/LIBS/css/fonts/brera/brecnrg-webfont.eot' -->") format("embedded-opentype"),
+  url("https://css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brecnrg-webfont.woff?v=<!--#flastmod virtual='/includes2013/LIBS/css/fonts/brera/brecnrg-webfont.woff' -->") format("woff"),
+  url("https://css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brera/brecnrg-webfont.ttf?v=<!--#flastmod virtual='/includes2013/LIBS/css/fonts/brera/brecnrg-webfont.ttf' -->") format("truetype"),
+  url("https://css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brera/brecnrg-webfont.svg#BreraCondensedSemiBold?v=<!--#flastmod virtual='/includes2013/LIBS/css/fonts/brera/brecnrg-webfont.svg' -->") format("svg");
+}
+
+@font-face {
+  font-family: "solferino";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.eot?v=<!--#flastmod virtual='/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.eot' -->");
+  src: url("https://css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.eot?#iefix&v=<!--#flastmod virtual='/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.eot' -->") format("embedded-opentype"),
+  url("https://css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.woff?v=<!--#flastmod virtual='/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.woff' -->") format("woff"),
+  url("https://css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.ttf?v=<!--#flastmod virtual='/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.ttf' -->") format("truetype"),
+  url("https://css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.svg#solferino_text_rgbold?v=<!--#flastmod virtual='/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.svg' -->") format("svg");
+}
