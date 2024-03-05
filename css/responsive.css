@@ -1,18 +1,5 @@
 /* Tablet */
-@media (max-width: 1024px) {
-  .intro-wrapper__news,
-  header,
-  footer,
-  .intro-wrapper__title {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  .content-socials,
-  .intro-wrapper__text {
-    padding-left: 12px;
-  }
-  
-}
+
 
 @media (max-width: 960px) {
   body {
@@ -69,7 +56,9 @@
   .footer-wrapper__text {
     text-align: center;
   }
-  
+  .header-wrapper__nav {
+    display: none;
+  }
 }
 
 @media (max-width: 680px) {
@@ -121,6 +110,30 @@
   }
   .comment-content__text {
     font-size: 16px;
+  }
+  .intro-wrapper__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  main,
+  header {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  header {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .header-left__sublogo {
+    width: 90px;
+  }
+  .header-left__sublogo svg {
+    width: 90px;
+  }
+  .header-wrapper__left {
+    gap: 8px;
   }
 }
 
