@@ -405,7 +405,9 @@ p.content-media__caption {
   position: absolute;
 }
 .content-wrapper__article b,
-.content-wrapper__article strong {
+.content-wrapper__article strong,
+.content-wrapper__article b > span,
+.content-wrapper__article b > p {
   font-weight: 600;
 }
 
