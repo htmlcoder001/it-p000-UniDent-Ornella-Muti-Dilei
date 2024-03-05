@@ -351,6 +351,7 @@ header {
 }
 .content-article__media {
   margin: 0 auto 24px auto;
+  text-align: center;
 }
 .content-media__image {
   display: block;

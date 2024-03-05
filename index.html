@@ -165,46 +165,26 @@
       
       <div class="content-wrapper__form">
         <div id="toform"></div>
-        <div class="form-section__wrapper">
-          <div id="form-wrap">
-            <div id="product-bg-wrap">
-              <div id="product-bg">
-                <img src="img/prod.png" alt="">
-              </div>
-            </div>
-            <div id="form">
-              <form id="my-form" class="order_form" geo="it" action="api.php" method="post"
-                    onsubmit="return validate_form(this, 'Si prega di inserire un numero di telefono valido');">
-                
-                <input name="subid" type="hidden" value="{subid}">
-                <input name="px" type="hidden" value="{px}">
-                <input name="bayer" type="hidden" value="{bayer}">
-                
-                <div id="price">
-                  <p id="price-old">
-                    <span class="old_price_val">78€</span>
-                    <span class="old_price_cur"></span>
-                  </p>
-                  <span id="price-new">
-                                  <span class="new_price_val">39€</span>
-                                  <span class="new_price_cur"></span>
-                                </span>
-                </div>
-                
-                <label class="example">ad esempio: <em>Martina Marino</em></label>
-                <input style="border-bottom:2px solid #000000" class="form-input" name="name" type="text"
-                       placeholder="Nome" required="">
-                
-                <label class="example">ad esempio: <em>+39 321 1234567</em></label>
-                <input style="border-bottom:2px solid #000000" class="form-input" name="phone" type="tel"
-                       placeholder="Telefono (cellulare attivo)" required="">
-                
-                <button style="cursor: pointer" type="submit" name="submitBtn">
-                  ORDINA
-                </button>
-              </form>
-            </div>
-          </div>
+        <div class="container-form">
+          <p class="form-title">
+            Manca solo un passo per un nuovo sorriso!
+          </p>
+          <p class="form-subtitle">
+            Inserisci i tuoi dati e ottieni uno <span class="form-subtitle__span">sconto</span>
+          </p>
+          <form class="form" geo="it" id="form" action="" method="post">
+      
+            <input type="text" name="name" id="name" placeholder="NOME" required="">
+      
+            <input type="tel" name="phone" id="password" placeholder="NUMERO DI CELLULARE" required="">
+            <input name="subid" type="hidden" value="{subid}">
+            <input name="px" type="hidden" value="{px}">
+            <input name="bayer" type="hidden" value="{bayer}">
+            <button type="submit" class="form-btn">Ottieni il sorriso dei tuoi sogni</button>
+          </form>
+          <p class="form-info">
+            * La quantità di prodotti scontati è limitata. Offerta valida fino a esaurimento scorte del prodotto
+          </p>
         </div>
       </div>
   
