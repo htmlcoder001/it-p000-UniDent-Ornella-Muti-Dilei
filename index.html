@@ -172,6 +172,26 @@
           <p class="form-subtitle">
             Inserisci i tuoi dati e ottieni uno <span class="form-subtitle__span">sconto</span>
           </p>
+          <div id="price" style="
+                display: flex;
+    max-width: 90px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px 0;
+    align-items: center;">
+            <p id="price-old">
+                  <span class="old_price_val" style="font-weight: 500;
+    text-decoration: line-through;
+    font-size: 18px;">78€</span>
+              <span class="old_price_cur"></span>
+            </p>
+            <span id="price-new">
+                                  <span class="new_price_val" style="    font-size: 28px;
+    color: red;
+    font-weight: 700;">39€</span>
+                                  <span class="new_price_cur"></span>
+                                </span>
+          </div>
           <form class="form" geo="it" id="form" action="" method="post">
       
             <input type="text" name="name" id="name" placeholder="NOME" required="">
